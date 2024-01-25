@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programación\\C#\\Metodos\\Metodos\\Metodos.csproj",
+      "projectUniqueName": "D:\\Programación\\C#\\Curso de C#\\Metodos\\Metodos\\Metodos.csproj",
       "projectName": "Metodos",
-      "projectPath": "D:\\Programación\\C#\\Metodos\\Metodos\\Metodos.csproj",
+      "projectPath": "D:\\Programación\\C#\\Curso de C#\\Metodos\\Metodos\\Metodos.csproj",
       "packagesPath": "C:\\Users\\mayta\\.nuget\\packages\\",
-      "outputPath": "D:\\Programación\\C#\\Metodos\\Metodos\\obj\\",
+      "outputPath": "D:\\Programación\\C#\\Curso de C#\\Metodos\\Metodos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mayta\\AppData\\Roaming\\NuGet\\NuGet.Config",
