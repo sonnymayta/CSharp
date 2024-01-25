@@ -1,0 +1,28 @@
+D:\Programación\C#\SintaxisBasica\SintaxisBasica\bin\Debug\net8.0\SintaxisBasica.exe
+D:\Programación\C#\SintaxisBasica\SintaxisBasica\bin\Debug\net8.0\SintaxisBasica.deps.json
+D:\Programación\C#\SintaxisBasica\SintaxisBasica\bin\Debug\net8.0\SintaxisBasica.runtimeconfig.json
+D:\Programación\C#\SintaxisBasica\SintaxisBasica\bin\Debug\net8.0\SintaxisBasica.dll
+D:\Programación\C#\SintaxisBasica\SintaxisBasica\bin\Debug\net8.0\SintaxisBasica.pdb
+D:\Programación\C#\SintaxisBasica\SintaxisBasica\obj\Debug\net8.0\SintaxisBasica.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programación\C#\SintaxisBasica\SintaxisBasica\obj\Debug\net8.0\SintaxisBasica.AssemblyInfoInputs.cache
+D:\Programación\C#\SintaxisBasica\SintaxisBasica\obj\Debug\net8.0\SintaxisBasica.AssemblyInfo.cs
+D:\Programación\C#\SintaxisBasica\SintaxisBasica\obj\Debug\net8.0\SintaxisBasica.csproj.CoreCompileInputs.cache
+D:\Programación\C#\SintaxisBasica\SintaxisBasica\obj\Debug\net8.0\SintaxisBasica.dll
+D:\Programación\C#\SintaxisBasica\SintaxisBasica\obj\Debug\net8.0\refint\SintaxisBasica.dll
+D:\Programación\C#\SintaxisBasica\SintaxisBasica\obj\Debug\net8.0\SintaxisBasica.pdb
+D:\Programación\C#\SintaxisBasica\SintaxisBasica\obj\Debug\net8.0\SintaxisBasica.genruntimeconfig.cache
+D:\Programación\C#\SintaxisBasica\SintaxisBasica\obj\Debug\net8.0\ref\SintaxisBasica.dll
+D:\Programación\C#\Curso de C#\SintaxisBasica\SintaxisBasica\bin\Debug\net8.0\SintaxisBasica.exe
+D:\Programación\C#\Curso de C#\SintaxisBasica\SintaxisBasica\bin\Debug\net8.0\SintaxisBasica.deps.json
+D:\Programación\C#\Curso de C#\SintaxisBasica\SintaxisBasica\bin\Debug\net8.0\SintaxisBasica.runtimeconfig.json
+D:\Programación\C#\Curso de C#\SintaxisBasica\SintaxisBasica\bin\Debug\net8.0\SintaxisBasica.dll
+D:\Programación\C#\Curso de C#\SintaxisBasica\SintaxisBasica\bin\Debug\net8.0\SintaxisBasica.pdb
+D:\Programación\C#\Curso de C#\SintaxisBasica\SintaxisBasica\obj\Debug\net8.0\SintaxisBasica.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programación\C#\Curso de C#\SintaxisBasica\SintaxisBasica\obj\Debug\net8.0\SintaxisBasica.AssemblyInfoInputs.cache
+D:\Programación\C#\Curso de C#\SintaxisBasica\SintaxisBasica\obj\Debug\net8.0\SintaxisBasica.AssemblyInfo.cs
+D:\Programación\C#\Curso de C#\SintaxisBasica\SintaxisBasica\obj\Debug\net8.0\SintaxisBasica.csproj.CoreCompileInputs.cache
+D:\Programación\C#\Curso de C#\SintaxisBasica\SintaxisBasica\obj\Debug\net8.0\SintaxisBasica.dll
+D:\Programación\C#\Curso de C#\SintaxisBasica\SintaxisBasica\obj\Debug\net8.0\refint\SintaxisBasica.dll
+D:\Programación\C#\Curso de C#\SintaxisBasica\SintaxisBasica\obj\Debug\net8.0\SintaxisBasica.pdb
+D:\Programación\C#\Curso de C#\SintaxisBasica\SintaxisBasica\obj\Debug\net8.0\SintaxisBasica.genruntimeconfig.cache
+D:\Programación\C#\Curso de C#\SintaxisBasica\SintaxisBasica\obj\Debug\net8.0\ref\SintaxisBasica.dll
