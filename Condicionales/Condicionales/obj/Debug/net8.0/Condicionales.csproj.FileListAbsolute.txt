@@ -1,0 +1,15 @@
+D:\Programación\C#\Curso de C#\Condicionales\Condicionales\bin\Debug\net8.0\Condicionales.exe
+D:\Programación\C#\Curso de C#\Condicionales\Condicionales\bin\Debug\net8.0\Condicionales.deps.json
+D:\Programación\C#\Curso de C#\Condicionales\Condicionales\bin\Debug\net8.0\Condicionales.runtimeconfig.json
+D:\Programación\C#\Curso de C#\Condicionales\Condicionales\bin\Debug\net8.0\Condicionales.dll
+D:\Programación\C#\Curso de C#\Condicionales\Condicionales\bin\Debug\net8.0\Condicionales.pdb
+D:\Programación\C#\Curso de C#\Condicionales\Condicionales\obj\Debug\net8.0\Condicionales.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programación\C#\Curso de C#\Condicionales\Condicionales\obj\Debug\net8.0\Condicionales.AssemblyInfoInputs.cache
+D:\Programación\C#\Curso de C#\Condicionales\Condicionales\obj\Debug\net8.0\Condicionales.AssemblyInfo.cs
+D:\Programación\C#\Curso de C#\Condicionales\Condicionales\obj\Debug\net8.0\Condicionales.csproj.CoreCompileInputs.cache
+D:\Programación\C#\Curso de C#\Condicionales\Condicionales\obj\Debug\net8.0\Condicionales.sourcelink.json
+D:\Programación\C#\Curso de C#\Condicionales\Condicionales\obj\Debug\net8.0\Condicionales.dll
+D:\Programación\C#\Curso de C#\Condicionales\Condicionales\obj\Debug\net8.0\refint\Condicionales.dll
+D:\Programación\C#\Curso de C#\Condicionales\Condicionales\obj\Debug\net8.0\Condicionales.pdb
+D:\Programación\C#\Curso de C#\Condicionales\Condicionales\obj\Debug\net8.0\Condicionales.genruntimeconfig.cache
+D:\Programación\C#\Curso de C#\Condicionales\Condicionales\obj\Debug\net8.0\ref\Condicionales.dll
