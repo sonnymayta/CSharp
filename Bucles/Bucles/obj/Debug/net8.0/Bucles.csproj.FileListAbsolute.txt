@@ -1,0 +1,15 @@
+D:\Programación\C#\Curso de C#\Bucles\Bucles\bin\Debug\net8.0\Bucles.exe
+D:\Programación\C#\Curso de C#\Bucles\Bucles\bin\Debug\net8.0\Bucles.deps.json
+D:\Programación\C#\Curso de C#\Bucles\Bucles\bin\Debug\net8.0\Bucles.runtimeconfig.json
+D:\Programación\C#\Curso de C#\Bucles\Bucles\bin\Debug\net8.0\Bucles.dll
+D:\Programación\C#\Curso de C#\Bucles\Bucles\bin\Debug\net8.0\Bucles.pdb
+D:\Programación\C#\Curso de C#\Bucles\Bucles\obj\Debug\net8.0\Bucles.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programación\C#\Curso de C#\Bucles\Bucles\obj\Debug\net8.0\Bucles.AssemblyInfoInputs.cache
+D:\Programación\C#\Curso de C#\Bucles\Bucles\obj\Debug\net8.0\Bucles.AssemblyInfo.cs
+D:\Programación\C#\Curso de C#\Bucles\Bucles\obj\Debug\net8.0\Bucles.csproj.CoreCompileInputs.cache
+D:\Programación\C#\Curso de C#\Bucles\Bucles\obj\Debug\net8.0\Bucles.sourcelink.json
+D:\Programación\C#\Curso de C#\Bucles\Bucles\obj\Debug\net8.0\Bucles.dll
+D:\Programación\C#\Curso de C#\Bucles\Bucles\obj\Debug\net8.0\refint\Bucles.dll
+D:\Programación\C#\Curso de C#\Bucles\Bucles\obj\Debug\net8.0\Bucles.pdb
+D:\Programación\C#\Curso de C#\Bucles\Bucles\obj\Debug\net8.0\Bucles.genruntimeconfig.cache
+D:\Programación\C#\Curso de C#\Bucles\Bucles\obj\Debug\net8.0\ref\Bucles.dll
