@@ -4,7 +4,16 @@
     {
         static void Main(string[] args)
         {
-            UsoChecked2();
+            try
+            {
+                Console.WriteLine(NombreMes(55));
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Mensaje de la exception: {ex}");
+            }
+            
+            Console.WriteLine("El programa continua funcionado.");
         }
 
         static void IntroducirValor()
@@ -108,7 +117,41 @@
             Console.WriteLine(resultado);
         }
 
-
+        public static string NombreMes(int mes)
+        {
+            switch (mes)
+            {
+                case 1:
+                    return "Enero";
+                case 2:
+                    return "Febrero";
+                case 3:
+                    return "Marzo";
+                case 4:
+                    return "Abril";
+                case 5:
+                    return "Mayo";
+                case 6:
+                    return "Junio";
+                case 7:
+                    return "Julio";
+                case 8:
+                    return "Agosto";
+                case 9:
+                    return "Septiembre";
+                case 10:
+                    return "Octubre";
+                case 11:
+                    return "Noviembre";
+                case 12:
+                    return "Diciembre";
+                default:
+                    throw new ArgumentOutOfRangeException(); 
+                // Con esta linea obligamos que el metodo a dejar de funcionar cuando se ingrese un valor fuera de lo estimado
+                // Con esto el programador se ve obligado a utilizar el metodo dentro de un try and catch
+                // y capturar la excepcion generada
+            }
+        }
             /*
              * EXCEPCIONES
              * Las excepciones son errores en tiempo de ejecución del programa que escapan al control
@@ -137,6 +180,7 @@
              * - SystemException (FormatException, OverflowException)      
              * 
              * No abusar con el uso de "Exception" e intentar capturar las exceptiones especificas
+             * Se pueden modificar el comportamiento de las excepciones en Debug > Windows > Exception settings            
              */
-        }
     }
+}
