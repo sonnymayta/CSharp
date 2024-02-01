@@ -1,0 +1,15 @@
+D:\Programación\C#\Curso de C#\Finally\Finally\bin\Debug\net8.0\Finally.exe
+D:\Programación\C#\Curso de C#\Finally\Finally\bin\Debug\net8.0\Finally.deps.json
+D:\Programación\C#\Curso de C#\Finally\Finally\bin\Debug\net8.0\Finally.runtimeconfig.json
+D:\Programación\C#\Curso de C#\Finally\Finally\bin\Debug\net8.0\Finally.dll
+D:\Programación\C#\Curso de C#\Finally\Finally\bin\Debug\net8.0\Finally.pdb
+D:\Programación\C#\Curso de C#\Finally\Finally\obj\Debug\net8.0\Finally.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programación\C#\Curso de C#\Finally\Finally\obj\Debug\net8.0\Finally.AssemblyInfoInputs.cache
+D:\Programación\C#\Curso de C#\Finally\Finally\obj\Debug\net8.0\Finally.AssemblyInfo.cs
+D:\Programación\C#\Curso de C#\Finally\Finally\obj\Debug\net8.0\Finally.csproj.CoreCompileInputs.cache
+D:\Programación\C#\Curso de C#\Finally\Finally\obj\Debug\net8.0\Finally.sourcelink.json
+D:\Programación\C#\Curso de C#\Finally\Finally\obj\Debug\net8.0\Finally.dll
+D:\Programación\C#\Curso de C#\Finally\Finally\obj\Debug\net8.0\refint\Finally.dll
+D:\Programación\C#\Curso de C#\Finally\Finally\obj\Debug\net8.0\Finally.pdb
+D:\Programación\C#\Curso de C#\Finally\Finally\obj\Debug\net8.0\Finally.genruntimeconfig.cache
+D:\Programación\C#\Curso de C#\Finally\Finally\obj\Debug\net8.0\ref\Finally.dll
