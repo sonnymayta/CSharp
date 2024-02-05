@@ -1,0 +1,15 @@
+D:\Programming\C#\Curso de C#\POOCoche\POOCoche\bin\Debug\net8.0\POOCoche.exe
+D:\Programming\C#\Curso de C#\POOCoche\POOCoche\bin\Debug\net8.0\POOCoche.deps.json
+D:\Programming\C#\Curso de C#\POOCoche\POOCoche\bin\Debug\net8.0\POOCoche.runtimeconfig.json
+D:\Programming\C#\Curso de C#\POOCoche\POOCoche\bin\Debug\net8.0\POOCoche.dll
+D:\Programming\C#\Curso de C#\POOCoche\POOCoche\bin\Debug\net8.0\POOCoche.pdb
+D:\Programming\C#\Curso de C#\POOCoche\POOCoche\obj\Debug\net8.0\POOCoche.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C#\Curso de C#\POOCoche\POOCoche\obj\Debug\net8.0\POOCoche.AssemblyInfoInputs.cache
+D:\Programming\C#\Curso de C#\POOCoche\POOCoche\obj\Debug\net8.0\POOCoche.AssemblyInfo.cs
+D:\Programming\C#\Curso de C#\POOCoche\POOCoche\obj\Debug\net8.0\POOCoche.csproj.CoreCompileInputs.cache
+D:\Programming\C#\Curso de C#\POOCoche\POOCoche\obj\Debug\net8.0\POOCoche.sourcelink.json
+D:\Programming\C#\Curso de C#\POOCoche\POOCoche\obj\Debug\net8.0\POOCoche.dll
+D:\Programming\C#\Curso de C#\POOCoche\POOCoche\obj\Debug\net8.0\refint\POOCoche.dll
+D:\Programming\C#\Curso de C#\POOCoche\POOCoche\obj\Debug\net8.0\POOCoche.pdb
+D:\Programming\C#\Curso de C#\POOCoche\POOCoche\obj\Debug\net8.0\POOCoche.genruntimeconfig.cache
+D:\Programming\C#\Curso de C#\POOCoche\POOCoche\obj\Debug\net8.0\ref\POOCoche.dll
