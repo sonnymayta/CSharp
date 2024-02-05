@@ -3,8 +3,7 @@
     internal class Program
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
+        {            
             RealizarTarea();
         }
 
@@ -16,10 +15,14 @@
 
             // Una clase sin constructor tiene un constructor por defecto
             // LLamada al constructor sin parametros
-            Punto punto = new Punto();
+            Punto origen = new Punto();
 
             // Llmada al segundo constructo que lleva paramentos
-            Punto punto1 = new Punto(4, 2);
+            Punto destino = new Punto(150, 90);
+
+            double distancia = origen.DistanciaHasta(destino);
+
+            Console.WriteLine(distancia);
         }
     }
 }
