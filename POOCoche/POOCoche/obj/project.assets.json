@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\C#\\Curso de C#\\POO\\POO\\POO.csproj",
-      "projectName": "POO",
-      "projectPath": "D:\\Programming\\C#\\Curso de C#\\POO\\POO\\POO.csproj",
+      "projectUniqueName": "D:\\Programming\\C#\\Curso de C#\\POOCoche\\POOCoche\\POOCoche.csproj",
+      "projectName": "POOCoche",
+      "projectPath": "D:\\Programming\\C#\\Curso de C#\\POOCoche\\POOCoche\\POOCoche.csproj",
       "packagesPath": "C:\\Users\\mayta\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\C#\\Curso de C#\\POO\\POO\\obj\\",
+      "outputPath": "D:\\Programming\\C#\\Curso de C#\\POOCoche\\POOCoche\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mayta\\AppData\\Roaming\\NuGet\\NuGet.Config",

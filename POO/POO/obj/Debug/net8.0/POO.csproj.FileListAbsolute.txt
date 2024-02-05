@@ -1,0 +1,15 @@
+D:\Programming\C#\Curso de C#\POO\POO\bin\Debug\net8.0\POO.exe
+D:\Programming\C#\Curso de C#\POO\POO\bin\Debug\net8.0\POO.deps.json
+D:\Programming\C#\Curso de C#\POO\POO\bin\Debug\net8.0\POO.runtimeconfig.json
+D:\Programming\C#\Curso de C#\POO\POO\bin\Debug\net8.0\POO.dll
+D:\Programming\C#\Curso de C#\POO\POO\bin\Debug\net8.0\POO.pdb
+D:\Programming\C#\Curso de C#\POO\POO\obj\Debug\net8.0\POO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C#\Curso de C#\POO\POO\obj\Debug\net8.0\POO.AssemblyInfoInputs.cache
+D:\Programming\C#\Curso de C#\POO\POO\obj\Debug\net8.0\POO.AssemblyInfo.cs
+D:\Programming\C#\Curso de C#\POO\POO\obj\Debug\net8.0\POO.csproj.CoreCompileInputs.cache
+D:\Programming\C#\Curso de C#\POO\POO\obj\Debug\net8.0\POO.sourcelink.json
+D:\Programming\C#\Curso de C#\POO\POO\obj\Debug\net8.0\POO.dll
+D:\Programming\C#\Curso de C#\POO\POO\obj\Debug\net8.0\refint\POO.dll
+D:\Programming\C#\Curso de C#\POO\POO\obj\Debug\net8.0\POO.pdb
+D:\Programming\C#\Curso de C#\POO\POO\obj\Debug\net8.0\POO.genruntimeconfig.cache
+D:\Programming\C#\Curso de C#\POO\POO\obj\Debug\net8.0\ref\POO.dll
