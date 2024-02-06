@@ -20,9 +20,15 @@
             // Llmada al segundo constructo que lleva paramentos
             Punto destino = new Punto(150, 90);
 
+            Punto otroPunto = new Punto();
+
+            // La constatePrueva se asume como static
+            int constante = Punto.constantePrueva;
+
             double distancia = origen.DistanciaHasta(destino);
 
             Console.WriteLine(distancia);
+            Console.WriteLine($"Numero de objetos creados: {Punto.getContadorDeObjetos()}");
         }
     }
 }

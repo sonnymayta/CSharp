@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("POOConceptos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d162ef8808842f3463d87e6cf65585e7c85ee803")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd336b4149efecf24d36de7e3353050478aeb75e")]
 [assembly: System.Reflection.AssemblyProductAttribute("POOConceptos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("POOConceptos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
