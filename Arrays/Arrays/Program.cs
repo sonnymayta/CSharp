@@ -49,6 +49,13 @@
                 new {Nombre = "Carla", Edad=22}
             };
             Console.WriteLine(personas[1]);
+
+            // Uso de los bucles for
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"Posición {i}: {valores[i]}");
+            }
         }
 
         class Empleados
@@ -87,5 +94,17 @@
      * 
      * Declaración simplificada alternativa
      * int[] mi_matriz = {15, 25, 8, -7, 92}
+     * 
+     * BUCLE FOR
+     * Se conoce cuantas veces se repetira el código en el interior del bucle for
+     * for(int i = 0; i <= 8; i++) 
+     * {
+     *      // código a repetir 
+     * }
+     * 
+     * - i = 0 indica la posición incial bucle
+     * - i <= 8 indica la condición del bucle, hasta donde se repetira
+     * - i++ Indica el incremento o decremento del bucle
+     * - El código se ejecuta antes de realizar el incremento
      */
 }
