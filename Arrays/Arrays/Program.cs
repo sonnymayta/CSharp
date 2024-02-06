@@ -22,6 +22,45 @@
 
             // Otra sintaxis que es posible en C# restringiendo la dimension del array
             int[] valores = new int[5] { 15, 27, 19, 80, 44 };
+
+            // Array implícitos
+            // Almacena datos pero no se especifica el tipo de dato y su tamaño
+            var datos = new[] { "Juan", "Carla", "Ricado", "Luz" };
+
+            // En algunos casos con tipos de datos compatibles podemos hacer lo siguiente
+            // En este caso el array sera de tipo double
+            var medidas = new[] { 12, 33, 2.44, 53, 5.22 };
+
+            // Array de objetos
+            Empleados[] arrayEmpleados = new Empleados[2];
+
+            // Crear un objeto mientras lo almacenamos en el array
+            arrayEmpleados[0] = new Empleados("Sara", 37);
+
+            // Creamos o instanciamos un objeto y despues lo almacenamos en el array
+            Empleados Carla = new Empleados("Carla", 23);
+            arrayEmpleados[1] = Carla;
+
+            // Array de tipos o clases anónimas
+            var personas = new[]
+            {
+                new {Nombre = "Daniel", Edad=19},
+                new {Nombre = "Maria", Edad=34},
+                new {Nombre = "Carla", Edad=22}
+            };
+            Console.WriteLine(personas[1]);
+        }
+
+        class Empleados
+        {
+            string nombre;
+            int edad;
+
+            public Empleados(string nombre, int edad)
+            {
+                this.nombre = nombre;
+                this.edad = edad;
+            }
         }
     }
 
