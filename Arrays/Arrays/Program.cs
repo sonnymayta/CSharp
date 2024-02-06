@@ -29,10 +29,10 @@
 
             // En algunos casos con tipos de datos compatibles podemos hacer lo siguiente
             // En este caso el array sera de tipo double
-            var medidas = new[] { 12, 33, 2.44, 53, 5.22 };
+            var medidas = new[] { 12, 33, 2.44, 53, 5.22, 212, 4.23 };
 
             // Array de objetos
-            Empleados[] arrayEmpleados = new Empleados[2];
+            Empleados[] arrayEmpleados = new Empleados[3];
 
             // Crear un objeto mientras lo almacenamos en el array
             arrayEmpleados[0] = new Empleados("Sara", 37);
@@ -40,6 +40,8 @@
             // Creamos o instanciamos un objeto y despues lo almacenamos en el array
             Empleados Carla = new Empleados("Carla", 23);
             arrayEmpleados[1] = Carla;
+
+            arrayEmpleados[2] = new Empleados("Manuel", 53);
 
             // Array de tipos o clases anónimas
             var personas = new[]
@@ -51,22 +53,57 @@
             Console.WriteLine(personas[1]);
 
             // Uso de los bucles for
-
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine($"Posición {i}: {valores[i]}");
             }
+
+            // Propiedad Array.Length
+            for (int i = 0; i < medidas.Length; i++)
+            {
+                Console.WriteLine($"Medidas {i}: {medidas[i]}");
+            }
+
+            for (int i = 0; i < arrayEmpleados.Length; i++)
+            {
+                Console.WriteLine(arrayEmpleados[i].getInfo());
+            }
+
+            // Bucle for each
+            // Se usa para recorrer arrays de objetos, implicitos y de tipo anonimos
+            // Pierde flexibilidad en caso de que quieras hacer modificación durante el bucle no te servira
+            // Ya que variables es de tipo empleado podemos acceder a todas la variables y metodos que tenga el objeto de tipo empleado
+            foreach (Empleados variable in arrayEmpleados) // se crea un iterador del mimo tipo que estamos almacenando en el array (es una variable)
+            {
+                Console.WriteLine(variable.getInfo());
+            }
+
+            foreach(double variable in medidas)
+            {
+                Console.WriteLine(variable);
+            }
+
+            foreach (var variable in personas)
+            {
+                Console.WriteLine(variable);
+            }
+
         }
 
         class Empleados
         {
-            string nombre;
-            int edad;
+            private string nombre;
+            private int edad;
 
             public Empleados(string nombre, int edad)
             {
                 this.nombre = nombre;
                 this.edad = edad;
+            }
+
+            public string getInfo()
+            {
+                return $"Nombre: {nombre}, Edad: {edad}";
             }
         }
     }
