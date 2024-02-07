@@ -3,16 +3,27 @@
     internal class Program
     {
         static void Main(string[] args)
-        {
-            Caballo Rento = new Caballo();
-            Humano Daniel = new Humano();
-            Gorila Copito = new Gorila();
+        {            
+            Caballo miRento = new Caballo("Rento");
+            Humano miDaniel = new Humano("Daniel");
+            Gorila miCopito = new Gorila("Copito");
 
-            Copito.Trepar();
+            miRento.getNombre();
+            miDaniel.getNombre();
+            miCopito.getNombre();
         }
 
         class Mamiferos
         {
+            // Campos de clase
+            private string NombreSerVivo;
+
+            // Comstructor
+            public Mamiferos(string nombre)
+            {
+                NombreSerVivo = nombre;
+            }
+
             public void Respirar()
             {
                 Console.WriteLine("Soy capaz de respirar.");
@@ -22,27 +33,48 @@
             {
                 Console.WriteLine("Cuido de mis crias.");
             }
+
+            public void getNombre()
+            {
+                Console.WriteLine($"El nombre del ser vivo es: {NombreSerVivo}");
+            }
         }
 
         // Caballo, Humano, Gorila hereda metodos de mamifero
-        class Caballo:Mamiferos
+        class Caballo : Mamiferos
         {
+            // Utilizando la instrucción base() para pasar un valor al atributo heredado de la clase mamifero
+            public Caballo(string nombreCaballo) : base(nombreCaballo)
+            {
+
+            }
+
             public void Galopar()
             {
                 Console.WriteLine("Soy capaz de galopar.");
             }
         }
 
-        class Humano:Mamiferos
+        class Humano : Mamiferos 
         {
+            public Humano(string nombreHumano) : base(nombreHumano)
+            {
+
+            }
+
             public void Pensar()
             {
                 Console.WriteLine("Soy capaz de pensar.");
             }
         }
 
-        class Gorila:Mamiferos
+        class Gorila : Mamiferos
         {
+            public Gorila(string nombreGorila) : base(nombreGorila)
+            {
+
+            }
+
             public void Trepar()
             {
                 Console.WriteLine("Soy capaz de trepar.");
@@ -58,7 +90,9 @@
      * [clase empleado] [clase jefe] [clase director]
      * (principio de diseño de herencia "es-un")
      * Posible diseños: 
+     * 
      *      empleado
+     *         |
      * jefe  < - >   director
      * 
      * empleado -> jefe -> director
@@ -75,6 +109,16 @@
      * 
      * Siempre que crees una clase una clase o varias clases en una jerarquia de herencia
      * La clase object se encontrara en la cuspide de la herencia (Llamada superclase cósmica)
+     *      
+     *      object
+     *         |
+     *      empleado
+     *         |
+     * jefe  < - >   director
      * 
+     * Las clases hijos que heredan de la clase padre llaman implicitamente al constructor de la clase padre
+     * Utilizan una instrucción que no es visible ":base()"
+     * En caso de que la superclase ya tenga un constructor definido la instrucción implicita ":base()" 
+     * deja de funcionar 
      */
 }
