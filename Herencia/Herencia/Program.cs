@@ -32,7 +32,15 @@
             almacenAnimales[1] = miDaniel;
             almacenAnimales[2] = miCopito;
 
-            almacenAnimales[2].getNombre();            
+            //almacenAnimales[2].getNombre();
+            
+            // Con esto llamamos al metodo pensar de cada clase correspondiente 
+            // A esto se llama polimorfismo -> es la capacidad que tiene los objetos en programación a comportarse de diferente forma 
+            // o tener diferente formas.
+            for (int i = 0; i < 3; i++)
+            {
+                almacenAnimales[i].Pensar();
+            }
         }
 
         class Mamiferos
@@ -45,6 +53,10 @@
             {
                 NombreSerVivo = nombre;
             }
+
+            // Para poder trabajar con los metodos pensar tanto de la clase padre mamiferos como de las demas
+            // clases heredadas utilizamos en el metodo pensar del tipo virtual
+            public virtual void Pensar() => Console.WriteLine("Pensamiento básico instintivo.");
 
             public void Respirar()
             {
@@ -84,7 +96,12 @@
 
             }
 
-            public void Pensar()
+            // Cuando una clase hereda un metodo con el mismo nombre de un metodo que ya posee
+            // Esta oculta el metodo heredado del mismo nombre
+            // Utilizamos la palabra reservada "new" para quitar la advertencia del metodo haciendo que oculte el metodo heredado
+            // Sin embargo si queremos que este metodo modifique el metodo heredado debemos utilizar la palabra reservada "override"
+            // que sobre escribe el metodo heredado
+            public override void Pensar()
             {
                 Console.WriteLine("Soy capaz de pensar.");
             }
@@ -96,6 +113,8 @@
             {
 
             }
+
+            public override void Pensar() => Console.WriteLine("Pensamiento instintivo avanzado");
 
             public void Trepar()
             {
@@ -169,5 +188,12 @@
      *        _____________|_____________
      *       |             |             |
      * jefe-sección    secretaria   director-general
+     * 
+     * HERENCIA DE MÉTODOS
+     * Palabras reservadas new, virtual y override
+     * 
+     * Ejemplo: public virtual string toString();
+     * -  Esto nos indica que todas las clases que podamos crear en c# deberian heredad el metodo toString y
+     *    todas las clases deberian modificar el metodo toString para que se adpate a cada clase.
      */
 }
