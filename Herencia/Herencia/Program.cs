@@ -11,6 +11,28 @@
             miRento.getNombre();
             miDaniel.getNombre();
             miCopito.getNombre();
+
+            // Principo de sustitución
+            // Animal y persona son de tipo mamiferos solo pueden acceder a los metodos declarados en la
+            // clase Mamiferos
+            Mamiferos animal = new Caballo("Merianda");
+
+            // Instanciamos clases y despues aplicamos el principio de sustitución. Esta es otra forma de aplicar el principio de sustitución
+            Mamiferos gato = new Mamiferos("Gato");
+            Caballo suerte = new Caballo("Suerte");
+            gato = suerte;
+
+            // Principio de sustitución con la superclase cosmica object
+            Object miCaballo = new Caballo("Bucefalo");
+
+            // Ejemplo
+            Console.WriteLine("\nEjemplo de almacen de animales usando el principio de sustitución.");
+            Mamiferos[] almacenAnimales = new Mamiferos[3];
+            almacenAnimales[0] = miRento;
+            almacenAnimales[1] = miDaniel;
+            almacenAnimales[2] = miCopito;
+
+            almacenAnimales[2].getNombre();            
         }
 
         class Mamiferos
@@ -120,5 +142,32 @@
      * Utilizan una instrucción que no es visible ":base()"
      * En caso de que la superclase ya tenga un constructor definido la instrucción implicita ":base()" 
      * deja de funcionar 
+     * 
+     * PRINCIPIO DE SUSTITUCIÓN EN LA HERENCIA
+     * Consiste en sustituir un objeto de un tipo por un objeto de un tipo diferente siempre teniendo en
+     * cuenta la herencia. Se utiliza constantemente en lenguajes de programación orientado a objetos
+     * Principio de sustitución -> "es siempre un"
+     * 
+     * Ejemplo: 
+     * 
+     *         [mamífero]
+     * [caballo]  [humano]  [gorila]
+     * 
+     * - un mamífero es siempre un caballo -> no
+     * - un caballo es siempre un humano -> si
+     * 
+     * Ejemplo: director-general, empleado, secretaria, jefe-sección
+     * 
+     * un empleado es siempre un director-general -> no
+     * un director-general es siempre un empleado -> si
+     * una secretaria es siempre un empleado -> si
+     * ...
+     * 
+     * La jerarquia seria así:
+     * 
+     *                 empleado
+     *        _____________|_____________
+     *       |             |             |
+     * jefe-sección    secretaria   director-general
      */
 }
