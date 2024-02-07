@@ -58,7 +58,8 @@
             // clases heredadas utilizamos en el metodo pensar del tipo virtual
             public virtual void Pensar() => Console.WriteLine("Pensamiento básico instintivo.");
 
-            public void Respirar()
+            // Ahora el metodo respirar solo sera accesible desde esta clase y las clases heredadas
+            protected void Respirar()
             {
                 Console.WriteLine("Soy capaz de respirar.");
             }
@@ -195,5 +196,12 @@
      * Ejemplo: public virtual string toString();
      * -  Esto nos indica que todas las clases que podamos crear en c# deberian heredad el metodo toString y
      *    todas las clases deberian modificar el metodo toString para que se adpate a cada clase.
+     *    
+     * MODIFICADORES DE ACCESO
+     * Son aplicados a metodos o variables
+     * 
+     * public: Nos da acceso desde cualquier lugar de nuestro programa. En general no es recomendada declarar una variable como publica.
+     * private: Solo sera accesible desde la clase donde se ha declarado. Cuando una variable es declarada como private se considera encapsulada.
+     * protected: Sera accesible desde la clase donde se declaro y de aquellas clases que hereden.
      */
 }
