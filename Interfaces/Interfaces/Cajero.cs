@@ -1,6 +1,6 @@
 ﻿namespace Interfaces
 {
-    internal class Cajero : Empleado, IEmpleadoProductos, IComunicacion, IPagos, ITrabajo
+    internal class Cajero : Empleado, IEmpleadoProductos, IComunicacion, IPagos, ITrabajoPorDia
     {
         public Cajero(string NombreCajero) : base(NombreCajero)
         {
@@ -22,9 +22,14 @@
             return true;
         }
 
-        public int HorasTrabajo()
+        int ITrabajoPorDia.HorasTrabajo()
         {
             return 8;
+        }
+
+        int IPagos.HorasTrabajo()
+        {
+            return 120;
         }
     }
 }

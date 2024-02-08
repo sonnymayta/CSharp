@@ -1,6 +1,6 @@
 ﻿namespace Interfaces
 {
-    internal interface ITrabajo
+    internal interface ITrabajoPorDia
     {
         int HorasTrabajo();
     }
