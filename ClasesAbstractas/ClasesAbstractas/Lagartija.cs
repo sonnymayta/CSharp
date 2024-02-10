@@ -1,6 +1,7 @@
 ﻿namespace ClasesAbstractas
 {
-    internal class Lagartija : Animales
+    // Decimos que la clase lagartija no tendra herederos
+    internal sealed class Lagartija : Animales
     {
         private string nombreReptil;
 

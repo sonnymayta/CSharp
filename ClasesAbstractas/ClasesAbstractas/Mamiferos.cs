@@ -6,5 +6,10 @@
         {
             Console.WriteLine("El nombre del mamífero es: ");
         }
+
+        public virtual void Pensar()
+        {
+            Console.WriteLine("Pensamiento basico.");
+        }
     }
 }
