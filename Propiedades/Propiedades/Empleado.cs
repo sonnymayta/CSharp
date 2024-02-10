@@ -3,11 +3,11 @@
     internal class Empleado
     {
         private double _salario;
-        private string nombre;
+        private string _nombre;
 
         public Empleado(string nombre)
         {
-            this.nombre = nombre;
+            _nombre = nombre;
         }
 
         //public void SetSalario(double salario)
@@ -33,6 +33,14 @@
             if (salario < 0) { return 0; } else { return salario; }
         }
 
+        //public double Salario
+        //{
+        //    get { return _salario; }
+        //    set { _salario = EvaluarSalario(value); }
+        //}
+        
+        // Puedes crear properties de solo escritura presindiendo del get y tambien propiedad
+        // de solo lectura presindiendo del set
         public double Salario
         {
             get => _salario;
