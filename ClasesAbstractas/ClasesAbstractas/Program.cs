@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Lagartija Rancho = new Lagartija("Rancho");
+            Rancho.Respirar();
+            
+            Humano Leo = new Humano();
+            Leo.Respirar();
+
+            Rancho.GetNombre();
+            Leo.GetNombre();
         }
     }
     /*
