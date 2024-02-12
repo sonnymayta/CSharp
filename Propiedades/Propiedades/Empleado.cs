@@ -52,6 +52,6 @@
      * PROPIEDADES (PROPERTIES)
      * Se da el caso que no siempres se pueden usar las properties y en ocaciones la sintaxis es mas
      * complicada que la encapsulación. Existen escenarios especificos donde las properties son más útiles que 
-     * el código convencional
+     * el código convencional     
      */
 }
