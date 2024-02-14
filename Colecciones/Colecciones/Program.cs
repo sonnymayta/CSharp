@@ -7,7 +7,11 @@
             // Crear una coleccion de tipo List
             List<int> numeros = new List<int>();
 
+            // Crear una coleccion de tipo LinkedList
             LinkedList<int> valores = new LinkedList<int>();
+
+            // Crear una coleccion de tipo Queue
+            Queue<int> datos = new Queue<int>();
 
             //int[] listaNumeros = new int[] { 3, 6, 8, 4, 7 };
 
@@ -35,6 +39,24 @@
             //    Console.WriteLine(numeros[i]);
             //}
 
+            // Queue
+            foreach (int i in new int[5] { 2, 4, 5, 6, 8 })
+            {
+                datos.Enqueue(i);
+            }
+            Console.WriteLine("Recorriendo el Queue.");
+            foreach ( int i in datos)
+            {
+                Console.WriteLine(i);
+            }
+
+            Console.WriteLine("Elimando elementos de Queue.");
+            datos.Dequeue();
+            foreach(int i in datos)
+            {
+                Console.WriteLine(i);
+            }
+
             // LinkedList
             foreach (int valor in new int[] { 10, 8, 16, 32, 64 })
             {
@@ -46,6 +68,7 @@
             //    Console.WriteLine(valor);
             //}
 
+            Console.WriteLine("Recorriendo el LinkedList.");
             LinkedListNode<int> nodoImportante = new LinkedListNode<int>(15);
             valores.AddFirst(nodoImportante);
             valores.Remove(16);
@@ -95,7 +118,7 @@
      * Dictionary<Tkey, Tvalue> Almacena elementos con estructura de clave-valor.
      * SortedList<Tkey, Tvalue> Igual que los Dictionary pero ordenados.
      * 
-     * COLECCIÓN LINDEDLIST (LISTAS ENLAZADAS)
+     * COLECCIÓN LINKEDLIST (LISTAS ENLAZADAS)
      * LinedList vs List
      * List {dato dato dato dato} en una lista todos sus elementos deben estar juntos no puede haber
      * un espacio sin un elemento adiacente (no puede haber una lista con un espacio vacio)
@@ -112,5 +135,8 @@
      *              [link1]dato[link3]
      * 
      *              [link3]dato[]
+     * COLECCIÓN QUEUE (COLAS)
+     * F.I.F.O Primero en entrar primero en salir (First In First Out)
+     * 
      */
 }
