@@ -4,12 +4,18 @@
     {
         static void Main(string[] args)
         {
-            AlmacenObjetos archivos = new AlmacenObjetos(4);
+            AlmacenObjetos<Empleado> archivos = new AlmacenObjetos<Empleado>(4);
+            AlmacenObjetos<DateTime> datos = new AlmacenObjetos<DateTime>(4);
 
             archivos.Agregar(new Empleado(1500));
             archivos.Agregar(new Empleado(2500));
             archivos.Agregar(new Empleado(3500));
             archivos.Agregar(new Empleado(4500));
+
+            datos.Agregar(new DateTime());
+            datos.Agregar(new DateTime());
+            datos.Agregar(new DateTime());
+            datos.Agregar(new DateTime());
             //archivos.Agregar("Juan");
             //archivos.Agregar("Elena");
             //archivos.Agregar("Antonio");
@@ -19,30 +25,57 @@
             //string nombrePersona = (string)archivos.GetElemento(2);
             //Console.WriteLine(nombrePersona);
 
-            // Hay que corregirlo
-            Empleado salarioEmpleado = (Empleado)archivos.GetElemento(2);
+            
+            Empleado salarioEmpleado = archivos.GetElemento(2);
             Console.WriteLine(salarioEmpleado.GetSalario());
+
+            DateTime fecha = datos.GetElemento(3);
+            Console.WriteLine(fecha);
         }
     }
 
-    class AlmacenObjetos
+    //class AlmacenObjetos
+    //{
+    //    private Object[] datosElemento;
+
+    //    private int _i = 0;
+
+    //    public AlmacenObjetos(int z)
+    //    {
+    //        datosElemento = new Object[z];            
+    //    }
+
+    //    public void Agregar(Object obj)
+    //    {
+    //        datosElemento[_i] = obj;
+    //        _i++;
+    //    }
+
+    //    public Object GetElemento(int i)
+    //    {
+    //        return datosElemento[i];
+    //    }
+    //}
+
+    // Declaración de una clase generica
+    class AlmacenObjetos<T>
     {
-        private Object[] datosElemento;
+        private T [] datosElemento;
 
         private int _i = 0;
 
         public AlmacenObjetos(int z)
         {
-            datosElemento = new Object[z];            
+            datosElemento = new T[z];
         }
 
-        public void Agregar(Object obj)
+        public void Agregar(T obj)
         {
             datosElemento[_i] = obj;
             _i++;
         }
 
-        public Object GetElemento(int i)
+        public T GetElemento(int i)
         {
             return datosElemento[i];
         }
