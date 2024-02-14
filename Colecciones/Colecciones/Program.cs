@@ -7,6 +7,8 @@
             // Crear una coleccion de tipo List
             List<int> numeros = new List<int>();
 
+            LinkedList<int> valores = new LinkedList<int>();
+
             //int[] listaNumeros = new int[] { 3, 6, 8, 4, 7 };
 
             //for (int i = 0; i < listaNumeros.Length; i++)
@@ -33,6 +35,28 @@
             //    Console.WriteLine(numeros[i]);
             //}
 
+            // LinkedList
+            foreach (int valor in new int[] { 10, 8, 16, 32, 64 })
+            {
+                valores.AddFirst(valor);
+            }
+
+            //foreach (int valor in valores)
+            //{
+            //    Console.WriteLine(valor);
+            //}
+
+            LinkedListNode<int> nodoImportante = new LinkedListNode<int>(15);
+            valores.AddFirst(nodoImportante);
+            valores.Remove(16);
+
+            for (LinkedListNode<int> nodo = valores.First; nodo != null; nodo = nodo.Next)
+            {
+                int valor = nodo.Value;
+                Console.WriteLine(valor);
+            }
+
+            // List
             Console.WriteLine("Introduce en la colección (0 para salir)");
             int elementos = 1;
             while (elementos != 0)
@@ -70,5 +94,23 @@
      * HashSet<T> Listas de valores sin ordenar.
      * Dictionary<Tkey, Tvalue> Almacena elementos con estructura de clave-valor.
      * SortedList<Tkey, Tvalue> Igual que los Dictionary pero ordenados.
+     * 
+     * COLECCIÓN LINDEDLIST (LISTAS ENLAZADAS)
+     * LinedList vs List
+     * List {dato dato dato dato} en una lista todos sus elementos deben estar juntos no puede haber
+     * un espacio sin un elemento adiacente (no puede haber una lista con un espacio vacio)
+     * LinkedList [enlace(link)] Dato [enlace(link)]
+     *                             |
+     *                          nodos
+     * LinkedList   []dato[link1]
+     *              [link1]dato[link2]
+     *              [link2]dato[link3]
+     *              [link3]dato[]
+     *            
+     * Si eliminamos
+     *              []dato[link1]
+     *              [link1]dato[link3]
+     * 
+     *              [link3]dato[]
      */
 }
