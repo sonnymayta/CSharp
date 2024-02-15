@@ -6,12 +6,14 @@ namespace ExpresionesRegulares
     {
         static void Main(string[] args)
         {
-            string frase = "Mi nombre es Jonny y mi n° de telefono es (+591) 788-586-28 y mi código postal es: 12345";
+            string frase = "Mi nombre es Jonny y mi n° de telefono es (+591)788-586-28, (+34)123-456-78 y mi código postal es: 12345 y mi web http://www.mi-web.net";
 
             // Herramienta de visual studio Edit -> Find and Remplace -> Quick Find activate expresion regular
             //string patron = "[S]";
             //string patron = @"\d{3}-";
-            string patron = @"\+591";
+            //string patron = @"\+591";
+            //string patron = @"\+591|\+34";
+            string patron = "https?://(www.)?mi-web.net";
 
             Regex regex = new Regex(patron);
 
@@ -38,5 +40,8 @@ namespace ExpresionesRegulares
      * - Matches
      * Propiedades útiles:
      * - Groups
+     * Cuantificadores con expresiones regulares
+     * 
+     * Herramienta: Regex C# generator online
      */
 }
