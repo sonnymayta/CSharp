@@ -19,5 +19,12 @@
                 </WrapPanel>
             </Button.Content>
         </Button>-->
+
+        <StackPanel>
+            <Button Content="Hola 1" Margin="15" Width="200" HorizontalAlignment="Left"></Button>
+            <Button Content="Hola 2" Margin="15" Width="200" HorizontalAlignment="Center" Click="Button_Click"></Button>
+            <Button Content="Hola 3" Margin="15" Width="200" HorizontalAlignment="Right"></Button>
+        </StackPanel>
+        
     </Grid>
 </Window>
