@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:InterfacesGraficas"
         mc:Ignorable="d"
-        Title="Interfaces gráficas" Height="450" Width="900">
+        Title="Interfaces gráficas" Height="450" Width="450">
     <Grid>
-        <TextBox HorizontalAlignment="Center" Text="Hello, world!" VerticalAlignment="Center" Width="120"/>
+        <!--<Button Content="Enviar" Height="50" Width="120"></Button>-->
+        <!--<Button>
+            <Button.Width>200</Button.Width>
+            <Button.Height>50</Button.Height>
+            <Button.Content>
+                <WrapPanel>
+                    <TextBlock Foreground="Red">Hola</TextBlock>
+                    <TextBlock Foreground="Blue">Click</TextBlock>
+                    <TextBlock Foreground="Yellow">Enviar</TextBlock>
+                </WrapPanel>
+            </Button.Content>
+        </Button>-->
     </Grid>
 </Window>
