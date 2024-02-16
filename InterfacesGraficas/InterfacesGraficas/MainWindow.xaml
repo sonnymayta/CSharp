@@ -20,10 +20,16 @@
             </Button.Content>
         </Button>-->
 
-        <StackPanel>
+        <!--Evento de tipo bubbling-->
+        <StackPanel Name="Panel" ButtonBase.Click="Panel_Click">
             <Button Content="Hola 1" Margin="15" Width="200" HorizontalAlignment="Left"></Button>
             <Button Content="Hola 2" Margin="15" Width="200" HorizontalAlignment="Center" Click="Button_Click"></Button>
             <Button Content="Hola 3" Margin="15" Width="200" HorizontalAlignment="Right"></Button>
+        </StackPanel>
+        
+        <!--Evento de tipo tunneling-->
+        <StackPanel Name="Panel2" PreviewMouseRightButtonUp="Panel2_PreviewMouseRightButtonUp">
+            
         </StackPanel>
         
     </Grid>

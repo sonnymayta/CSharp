@@ -44,7 +44,37 @@ namespace InterfacesGraficas
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Le has dado al botón de nuevo.");
+            //MessageBox.Show("Le has dado al botón de nuevo.");
+            Console.WriteLine("Le has dado al botón.");
         }
+
+        private void Panel_Click(object sender, RoutedEventArgs e)
+        {
+            Console.WriteLine("Le has dado al panel.");
+        }
+
+        private void Panel2_PreviewMouseRightButtonUp(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
+        /*
+         * EVENTOS DE TIPO BUBBLING
+         * El evento se propaga hacia arriba
+         * - window
+         * - - stack
+         * - - - boton (El evento se propagara hacia arriba hasta window)
+         * - - - - texto del boton 
+         * 
+         * * EVENTOS DE TIPO TUNNELING
+         * El evento se propaga hacia abajo (simpre con "preview" delante del nombre del evento)
+         * - window
+         * - - stack
+         * - - - boton (El evento se propagara hacia Abajo hasta texto del boton)
+         * - - - - texto del boton 
+         * 
+         * EVENTO DIRECTO 
+         * Sin propagación
+         */
     }
 }
