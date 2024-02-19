@@ -46,7 +46,18 @@
                 <RowDefinition Height="*"></RowDefinition>
             </Grid.RowDefinitions>
             <Button Grid.Column="0">Botón 1</Button>
-            <Button Grid.Column="1" Grid.Row="1">Botón 2</Button>
+            <!--Depency properties-->
+            <Button Grid.Column="1" Grid.Row="1" Content="Dale!">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="FontSize" Value="25"></Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
             <Button Grid.Column="2">Botón 3</Button>
 
             <TextBlock Grid.ColumnSpan="3" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center">Hola me llamo Rodrigo</TextBlock>
