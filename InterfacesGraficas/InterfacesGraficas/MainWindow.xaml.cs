@@ -84,6 +84,13 @@ namespace InterfacesGraficas
          * 
          * EVENTO DIRECTO 
          * Sin propagación
+         * 
+         * DATA BINDING
+         * Tipos:
+         * - oneWay
+         * - oneWayToSource
+         * - twoWays
+         * - oneTime
          */
     }
 }
