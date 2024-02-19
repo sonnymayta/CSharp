@@ -19,6 +19,17 @@ namespace InterfacesGraficas2
         public MainWindow()
         {
             InitializeComponent();
+
+            CombinaNombreApellido = new JuntaNombre { Nombre = "Juan", Apellido = "Diaz" };
+
+            DataContext = CombinaNombreApellido;
         }
+
+        public JuntaNombre CombinaNombreApellido;
     }
+
+    /*
+     * INORIFYPROPERTYCHANGED
+     * Engloba y notifica los cambios que sufran los elementos de la interfaz
+     */
 }

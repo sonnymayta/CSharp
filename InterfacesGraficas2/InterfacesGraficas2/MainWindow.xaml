@@ -9,8 +9,16 @@
     <Grid>
         <StackPanel>
             <!--Data binding-->
-            <TextBox Width="100" Name="MiCuadro" Margin="160" Text="{Binding ElementName=MiSlider, Path=Value, Mode=TwoWay}"></TextBox>
-            <Slider Width="250" Name="MiSlider" Minimum="0" Maximum="100"></Slider>
+            <!--Con el mode elegimos el tipo de vinculo-->
+            <!--<TextBox Width="100" Name="MiCuadro" Margin="160" Text="{Binding ElementName=MiSlider, Path=Value, Mode=TwoWay}"></TextBox>
+            <Slider Width="250" Name="MiSlider" Minimum="0" Maximum="100"></Slider>-->
+
+            <Label Content="Nombre"></Label>
+            <TextBox Width="100" Height="30" Text="{Binding Path=Nombre, Mode=TwoWay}"></TextBox>
+            <Label Content="Apellido"></Label>
+            <TextBox Width="100" Height="30" Text="{Binding Path=Apellido, Mode=TwoWay}"></TextBox>
+            <Label Content="Nombre_completo"></Label>
+            <TextBox Width="100" Height="30" Text="{Binding Path=Nombre_completo, Mode=TwoWay}"></TextBox>
         </StackPanel>
     </Grid>
 </Window>
